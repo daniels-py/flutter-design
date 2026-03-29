@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
 // IMPORTANTE: Aquí conectamos los archivos
 import 'home_screen.dart';
+
+import 'login_screen.dart';
+
 void main() {
   runApp(const MyApp());
 }
@@ -20,7 +23,7 @@ class MyApp extends StatelessWidget {
         brightness: Brightness.light, // Puedes cambiarlo a .dark si prefieres
       ),
       // Aquí llamamos a la pantalla que creamos en el otro archivo
-      home: const HomeScreen(),
+      home: const LoginScreen(),
     );
   }
 }

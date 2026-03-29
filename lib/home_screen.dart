@@ -14,12 +14,11 @@ class HomeScreen extends StatelessWidget {
       padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 10),
 
     );
-
+   
     return Scaffold(
 
     
       //fondo de mi pantalla temporalmente
-      backgroundColor: const Color.fromARGB(255, 0, 0, 0),
       //componete fijo predefino por defecto
       // hace que el cuerpo ignore el espacio del Appbar
       extendBodyBehindAppBar: true,
@@ -33,15 +32,12 @@ class HomeScreen extends StatelessWidget {
             icon: const Icon(Icons.notification_add),
             onPressed: () => print('Boton superior'),
             style: buttonStyle,  
-          ),
+          ), 
           const SizedBox(width: 30,)
 
         ],
       ),
-
-      
-
-      
+     
       // cuerpo de mi home
       body: Padding(
         padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 30),
